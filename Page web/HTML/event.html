@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../CSS/event.css" />
+		<link rel="icon" href="../sources/logo-m.ico" />
+		<title>Evènement</title>
+	</head>
+
+	<body>
+		
+		<div class="topima">
+			<img class="topimag" src="../sources/topima.jpg" alt="bannière">
+		</div>
+		<div class="index">
+			<a href="./event.php" style="text-decoration:none">
+				<div class="event">
+					<p class="even">Évènement</p>
+				</div>
+			</a>
+			<a href="./benevoles.html" style="text-decoration:none">
+				<div class="qui">
+					<p class="even">Les bénévoles</p>
+				</div>
+			</a>
+			<a href="./home.html" style="text-decoration:none"><img class="logo" src="../sources/logo-c.png" alt="Logo Bluepeace"></a>
+			
+			<a href="./contact.html" style="text-decoration:none">
+				<div class="contact">
+					<p class="even">Contact</p>
+				</div>
+			</a>
+			<a href="./info.html" style="text-decoration:none">
+				<div class="info">
+					<p class="even">Information</p>
+				</div>
+			</a>
+		</div>
+		
+			<table>
+				<tr id=topp>
+				<th>
+					<td>Lundi 20 mai</td>
+					<td>Mardi 21 mai</td>
+					<td>Mercredi 22 mai</td>
+					<td>Jeudi 23 mai</td>
+					<td>vendredi 24 mai</td>
+				</th>
+				</tr>
+				<tr>
+					<td>8.00-10.00</td>
+					<td colspan=2>Accueil des visiteurs</td>
+					<th rowspan=5 id=repos>Repos</th>
+					<td colspan=2>Rassemblement des marcheurs</td>
+				</tr>
+				<tr>
+					<td>10.30-12.30</td>
+					<td colspan=2>Explication</td>
+					<td colspan=2>Marche écologique </td>
+				</tr>
+				<tr>
+					<td>12.30-14.00</td>
+					<td colspan=2 id=dej>Déjeuner</td>
+					<td colspan=2 id=dej1>Déjeuner</td>
+				</tr>
+				<tr>
+					<td>14.00-16.00</td>
+					<th rowspan=1>Accueil des visiteurs</th>
+					<td>Atelier écologique</td>
+					<th rowspan=2>Atelier recyclage</th>
+					<th rowspan=2>Atelier ramassage des dechets</th>
+				</tr>
+				<tr>
+					<td>16.00-18.00</td>
+					<td colspan=2>Explication</td>
+				</tr>
+			</table>
+		<div class="inscription">
+		<form method="GET" action="inscription.php">
+			<p>Entrez votre Prénom :<br/> <input type="text" name="fname"/> <br/></p>
+			<p>Entrez votre nom :<br/> <input type="text" name="name"/><br/></p>
+			<p>Entrez votre Email :<br/> <input type="text" name="mail"/> <br/></p>
+			<p>Entrez le nom de votre organisation :<br/> <input type="text" name="orga"/> <br/></p>
+			<select name="date">
+				<option value="2019-05-20">20 mai</option>
+				<option value="2019-05-21">21 mai</option>
+				<option value="2019-05-23">23 mai</option>
+				<option value="2019-05-24">24 mai</option>
+				<option value="2019-05-25">25 mai</option>
+			</select>
+			<input type="time" name="time"><br/>
+			<input type="submit" value="Envoyer">
+		</form>
+		<br>
+		<form action="parti.php">
+			<input type="submit" value="Voir les participant">
+		</form>
+		</div>
+	</body>
+
+</html>

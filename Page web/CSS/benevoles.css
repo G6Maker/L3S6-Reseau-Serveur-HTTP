@@ -1,0 +1,109 @@
+body {
+	background-color: #E2E8EE;
+}
+.topimag {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+}
+
+
+.index {
+	height: 50px;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    background-color: #BBC3FC;
+    box-shadow: rgba(0,0,0,.3) 0 5px 10px;
+    position: relative;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1240px;
+}
+
+
+.logo {
+	height: 60px;
+}
+
+.event {
+	color: #F7F7F7;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.event:hover {
+	color: #BBC3FC;
+	background-color: #F7F7F7;
+}
+
+.qui {
+	color: #F7F7F7;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.qui:hover {
+	color: #BBC3FC;
+	background-color: #F7F7F7;
+}
+
+.contact {
+	color: #F7F7F7;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.contact:hover {
+	color: #BBC3FC;
+	background-color: #F7F7F7;
+}
+
+.info {
+	color: #F7F7F7;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.info:hover {
+	color: #BBC3FC;
+	background-color: #F7F7F7;
+}
+
+.even {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.bene1, .bene2, .bene3, .bene4, .bene5, .bene6 { /* ajouté tous les class de photo de benevoles*/
+	display: block;
+	max-height:250px;
+	max-width:250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tabb { /* a modifier pour centre */$
+	text-align:center;
+	width :80%;
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+	border: solid;
+	border-width: 5px;
+}
+	
+h6 {
+	color: red;
+}
